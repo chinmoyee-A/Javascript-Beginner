@@ -82,3 +82,39 @@ for(var y =2;y<=10;y+=2)
 {
 	document.write("<h2>"+(y)+"</h2>");
 }
+////////////////////////While Loop///////////////////
+// var a=1;
+// while(a<10)
+// {
+// 	document.write("<h1>"+a+"</h1>");
+// 		a=a+2;
+
+// }
+/////////////////////Functions/////////////////////////////////////////////////
+
+
+function addNumber()
+{
+	var a=5;
+	var b=3;
+	var total=a+b;
+	document.write("<h1> the total is : "+total+"</h1>");
+} 
+
+addNumber();
+////////////////////////Global or Local Variable////////////////////////////////////////
+
+var a=5;// this is a global variable 
+document.write("<h1> This is a global variable : "+a+"</h1>");
+
+function myFunction()
+{
+	var b=10;// Local Variable 
+	document.write("<h1> This is a local variable : "+b+"</h1>");
+
+}
+myFunction();
+////////////////////////////////////ARRAY////////////////////////
+
+ var cars=[' maruti ',' volvo ',' Duster ']
+ document.write("<h1> the array is : " + cars + "</h1>");
